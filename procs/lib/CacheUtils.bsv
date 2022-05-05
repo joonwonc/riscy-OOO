@@ -37,8 +37,8 @@ import Performance::*;
 import FShow::*;
 import MsgFifo::*;
 
-// 64B cache line
-typedef 8 CLineNumData;
+// 32B cache line
+typedef 4 CLineNumData;
 typedef TLog#(CLineNumData) LogCLineNumData;
 typedef Bit#(LogCLineNumData) CLineDataSel;
 
